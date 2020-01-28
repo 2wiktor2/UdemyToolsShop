@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Tools Shop</string>
     <string name="logo_description">логотип магазина</string>
+    <string name="logo_drill">Логотип дрель</string>
 
     <string-array name="tools">
         <item>Дрели</item>
@@ -9,4 +10,18 @@
         <item>Торцовки</item>
         <item>Циркулярные пилы</item>
     </string-array>
+
+    <string name="drill_makita_title">Дрель Makita</string>
+    <string name="drill_deWalt_title">Дрель DeWalt</string>
+    <string name="drill_miwaukee_title">Дрель Miwaukee</string>
+    <string name="drill_bosh_title">Дрель Bosh</string>
+    <string name="drill_festool_title">Дрель Festool</string>
+    <string name="drill_blackAndDecker_title">Дрель Black and Decker</string>
+
+    <string name="drill_makita_info">Описание дрели Makita</string>
+    <string name="drill_deWalt_info">Описание дрели DeWalt</string>
+    <string name="drill_miwaukee_info">Описание дрели Miwaukee</string>
+    <string name="drill_bosh_info">Описание дрели Bosh</string>
+    <string name="drill_festool_info">Описание дрели Festool</string>
+    <string name="drill_blackAndDecker_info">Описание дрели Black and Decker</string>
 </resources>
