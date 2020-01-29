@@ -49,9 +49,14 @@ public class ActivityDrillCategory extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Drill drill = drills.get(i);
                 Intent intent = new Intent(getApplicationContext(), ActivityDrillDetails.class);
-                intent.putExtra("title", drill.getTitle());
+                Bundle bundle = new Bundle();
+                bundle.putString("title", drill.getTitle());
+                bundle.putString("info", drill.getInfo());
+                bundle.putInt("resId", drill.getImageResourceId());
+                intent.putExtras(bundle);
+/*                intent.putExtra("title", drill.getTitle());
                 intent.putExtra("info", drill.getInfo());
-                intent.putExtra("resId", drill.getImageResourceId());
+                intent.putExtra("resId", drill.getImageResourceId());*/
                 startActivity(intent);
             }
         });
